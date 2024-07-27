@@ -93,7 +93,7 @@ repositories:
 
   #launcher/autoware_launch:
     #type: git
-    #url: https://github.com/autowarefoundation/autoware_launch.git
+    #url: https://github.com/Arata-Stu/autoware_launch.git
     #version: main
 
   ##### from my fork repo
