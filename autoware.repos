@@ -91,11 +91,6 @@ repositories:
     version: v0.6.0_t4-ros
   # launcher
 
-  #launcher/autoware_launch:
-    #type: git
-    #url: https://github.com/Arata-Stu/autoware_launch.git
-    #version: dev/rover
-
   ##### from my fork repo
   launcher/autoware_launch:
     type: git
@@ -150,12 +145,9 @@ repositories:
   ##### from iASL
   vehicle/external/canedudev_rover_vehicle_interface:
     type: git
-    url: https://github.com/iASL-Gifu/canedudev_rover_vehicle_interface
+    url: https://github.com/Arata-Stu/canedudev_rover_vehicle_interface.git
     version: main
   
-  ##### from iASL
-  https://github.com/Arata-Stu/canedudev_rover_vehicle_interface.git
-
   # param
   ##### from my fork
   param/autoware_individual_params:
