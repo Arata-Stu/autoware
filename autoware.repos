@@ -126,7 +126,7 @@ repositories:
   sensor_component/external/xsens:
     type: git
     url: https://github.com/Arata-Stu/bluespace_ai_xsens_ros_mti_driver.git
-    version: dev/rover
+    version: ros2_0_humble
 
   # sensor_kit
   ##### from my fork
