@@ -104,10 +104,10 @@ repositories:
     url: https://github.com/Arata-Stu/sensor_component_description.git
     version: main
 
-  ##### from my fork repo
+  #
   sensor_component/external/nebula:
     type: git
-    url: https://github.com/Arata-Stu/nebula.git
+    url: https://github.com/tier4/nebula.git
     version: main
 
   # Fork of transport_drivers that enables reduction of copy operations
@@ -116,11 +116,11 @@ repositories:
     url: https://github.com/autowarefoundation/transport_drivers
     version: mutable-buffer-in-udp-callback
   
-  # Continental compatible version of ROS 2 socket CAN
-  sensor_component/ros2_socketcan:
+  ##### from my fork
+  sensor_component/rover_ros_driver:
     type: git
-    url: https://github.com/autowarefoundation/ros2_socketcan
-    version: feat/continental_fd
+    url: https://github.com/Arata-Stu/rover_ros_driver.git
+    version: main
 
   ##### from my fork
   sensor_component/external/xsens:
@@ -142,10 +142,16 @@ repositories:
     url: https://github.com/Arata-Stu/sample_vehicle_launch.git
     version: dev/rover
 
-  ##### from iASL
+  ##### from iASL fork repo
   vehicle/external/canedudev_rover_vehicle_interface:
     type: git
     url: https://github.com/Arata-Stu/canedudev_rover_vehicle_interface.git
+    version: main
+
+  ##### from my fork repo
+  vehicle/external/rover_interface:
+    type: git
+    url: https://github.com/Arata-Stu/rover_interface.git
     version: main
   
   # param
