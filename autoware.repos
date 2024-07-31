@@ -142,11 +142,7 @@ repositories:
     url: https://github.com/Arata-Stu/sample_vehicle_launch.git
     version: dev/rover
 
-  ##### from iASL fork repo
-  vehicle/external/canedudev_rover_vehicle_interface:
-    type: git
-    url: https://github.com/Arata-Stu/canedudev_rover_vehicle_interface.git
-    version: main
+  
 
   ##### from my fork repo
   vehicle/external/rover_interface:
