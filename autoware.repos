@@ -101,7 +101,7 @@ repositories:
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
-    url: https://github.com/Arata-Stu/sensor_component_description.git
+    url: https://github.com/iASL-Gifu/sensor_component_description.git
     version: main
 
   #
@@ -119,7 +119,7 @@ repositories:
   ##### from my fork
   sensor_component/rover_ros_driver:
     type: git
-    url: https://github.com/Arata-Stu/rover_ros_driver.git
+    url: https://github.com/iASL-Gifu/rover_ros_driver.git
     version: main
 
   ##### from my fork
@@ -129,17 +129,17 @@ repositories:
     version: ros2_0_humble
 
   # sensor_kit
-  ##### from my fork
-  sensor_kit/sample_sensor_kit_launch:
+  ##### from iASL 
+    sensor_kit/canedudev_rover_sensor_kit_launch:
     type: git
-    url: https://github.com/Arata-Stu/sample_sensor_kit_launch.git
+    url: https://github.com/iASL-Gifu/canedudev_rover_sensor_kit_launch.git
     version: dev/rover
   
   #vehicle
-  ##### from my fork
-  vehicle/sample_vehicle_launch:
+  ##### from iASL
+  vehicle/canedudev_rover__vehicle_launch:
     type: git
-    url: https://github.com/Arata-Stu/sample_vehicle_launch.git
+    url: https://github.com/iASL-Gifu/canedudev_rover__vehicle_launch.git
     version: dev/rover
 
   
@@ -152,7 +152,7 @@ repositories:
   
   # param
   ##### from my fork
-  param/autoware_individual_params:
+  param/canedudev_rover_individual_params:
     type: git
-    url: https://github.com/Arata-Stu/autoware_individual_params.git
+    url: https://github.com/iASL-Gifu/canedudev_rover_individual_params.git
     version: dev/rover
